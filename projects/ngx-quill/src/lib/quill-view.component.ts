@@ -132,6 +132,7 @@ export class QuillViewComponent implements AfterViewInit, OnChanges {
     ) as HTMLElement
 
     this.zone.runOutsideAngular(() => {
+      window['BeyondGrammar'].initBeyondGrammar();
       this.quillEditor = new Quill(this.editorElem, {
         debug: debug as any,
         formats: formats as any,

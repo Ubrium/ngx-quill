@@ -1,5 +1,5 @@
 {
-  "name": "ngx-quill",
+  "name": "@ubrium/ngx-quill",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -12,7 +12,7 @@
   "author": {
     "name": "Bengt Weiße"
   },
-  "description": "An angular component for the easy use of the QuillJS richt text editor.",
+  "description": "An angular component for the easy use of the QuillJS richt text editor extended by ubrium.",
   "bugs": "https://github.com/KillerCodeMonkey/ngx-quill/issues",
   "homepage": "https://github.com/KillerCodeMonkey/ngx-quill",
   "repository": {
@@ -99,5 +99,5 @@
       "name": "Bengt Weiße"
     }
   ],
-  "version": "13.0.1"
+  "version": "0.0.1"
 }
